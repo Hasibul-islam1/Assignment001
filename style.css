@@ -120,15 +120,61 @@
     font-weight: 600;
     line-height: 23px
 }
-.dev-main-content-bg{
+
+.dev-main-content-bg {
     background-color: #fff;
     border: 10px;
     margin-bottom: 20px;
 }
-.impression{
+
+.impression {
     text-align: center;
-    
+
 }
-.impression iframe{
+
+.impression iframe {
     border-radius: 5px;
+}
+
+.card {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.all-card {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: left;
+    margin-top: 20px;
+    /* align-items: center; */
+}
+
+.card-content {
+    padding: 40px;
+    width: 250px;
+}
+
+.card-title {
+    color: rgb(13, 19, 33);
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.card-btn {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.card1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.card2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.card3{
+    background-color: rgba(255, 223, 0, 0.05);
 }
